@@ -1,0 +1,82 @@
+/* Reset default browser styles */
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set base font size and family */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  /* Section styles */
+  .section {
+    margin: 40px 0;
+  }
+  
+  /* Section title styles */
+  .section h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Artworks container styles */
+  .artworks {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin: 5px 0;
+    }
+  }
