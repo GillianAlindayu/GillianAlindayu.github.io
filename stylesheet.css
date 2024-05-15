@@ -1,83 +1,50 @@
-/* Reset default browser styles */
-html, body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
-  }
-  
-  /* Set base font size and family */
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  /* Navigation styles */
-  nav {
-    background-color: #333;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin-right: 10px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 8px 15px;
-  }
-  
-  nav a:hover {
-    background-color: #555;
-  }
-  
-  /* Container styles */
-  .container {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 20px;
-  }
-  
-  /* Section styles */
-  .section {
-    margin: 40px 0;
-  }
-  
-  /* Section title styles */
-  .section h2 {
-    margin-bottom: 10px;
-  }
-  
-  /* Artworks container styles */
-  .artworks {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  
-  /* Responsive styles */
-  @media only screen and (max-width: 768px) {
-    nav ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    nav li {
-      margin: 5px 0;
-    }
-  }
+*{
+    margin: auto; 
+    padding: 0; 
+
+}
+
+.main{
+    width: 100px; 
+    background: linear-gradient(to top, rgba(0,0,0, 0.5)58%, rgba(0,0,0,0.5)58%), url(star-wars-place-ztno3exzqff0m0ci.jpg); 
+    background-position: center; 
+    background-size: cover; 
+    height: 250vh; 
+    width: 230vh; 
+    font-family: sans-serif; 
+}
+
+.navbar{
+    width: 95px; 
+    height: auto; 
+    margin-left: 30px; 
+
+}
+
+.logo{
+    color: lightsalmon; 
+    font-size: 40px; 
+    font-family: cursive; 
+    float: left; 
+    padding-top: .6%; 
+    cursor: pointer; 
+
+}
+
+.menu{
+    width: 600px; 
+    float: left; 
+    height: 70px; 
+    padding-top: 30px; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 14%; 
+
+}
+
+ul li{
+    list-style: none; 
+    margin-left: 60px; 
+    font-size: 16px; 
+    
+}
