@@ -22,7 +22,7 @@
 }
 
 .logo{
-    color: lightsalmon; 
+    color: rgba(122, 255, 231, 0.742); 
     font-size: 40px; 
     font-family: cursive; 
     float: left; 
@@ -33,7 +33,7 @@
 
 .menu{
     width: 600px; 
-    float: left; 
+    float: center; 
     height: 70px; 
     padding-top: 30px; 
     justify-content: center; 
