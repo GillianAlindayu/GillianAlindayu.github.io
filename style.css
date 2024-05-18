@@ -1,98 +1,132 @@
 body {
-    width: 100px; 
-    background: linear-gradient(to top, rgba(0,0,0, 0.5)58%, rgba(0,0,0,0.5)58%), url(star-wars-place-ztno3exzqff0m0ci.jpg); 
-    background-position: center; 
-    background-size: cover; 
-    height: 250vh; 
-    width: 230vh; 
-    font-family: sans-serif; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+    margin-bottom: 10px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
 }
 
 .main {
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
+    overflow: hidden;
 }
 
 .navbar {
     background-color: #333;
-    padding: 10px;
+    height: 80px;
+    width: 100%;
 }
 
 .logo {
-    color: #fff;
-    font-size: 1.5em;
+    color: white;
+    line-height: 80px;
+    font-size: 2.5rem;
+    padding: 0 30px;
 }
 
 .menu {
-    background-color: #eee;
-    padding: 10px;
+    float: right;
+    line-height: 80px;
 }
-
 
 .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-.menu li {
     display: inline-block;
-    margin-right: 10px;
 }
 
-.menu a {
-    display: block;
-    padding: 5px 10px;
-    color: #333;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    background-color: #50050f;
-    color: #fff;
+.menu ul li {
+    float: left;
+    padding: 0 20px;
 }
 
 .section {
-    margin-bottom: 30px;
-    margin-top: 30px; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-.section h1, .section h2 {
-    margin: 0 0 10px;
-    padding: 0; 
-    color: #eee; 
-}
-
-.section p {
-    margin: 0;
-}
-
-.first.artwork {
-    color: rgb(211, 211, 211);
+.section h2 {
+    font-size: 3rem;
+    padding: 20px;
 }
 
 .introduction {
-    font-style: italic;
+    width: 70%;
+    font-size: 1.3rem;
+    padding: 20px;
 }
 
+.Aboutpage {
+    width: 70%;
+    font-size: 1.3rem;
+    padding: 20px;
+}
 
-.about.me {
-    text-transform: uppercase;
+.about-me {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.iconic {
+    width: 70%;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.first-artwork {
+    font-size: 2rem;
+    padding: 20px;
 }
 
 .Mandalorian {
-    font-style: italic;
+    font-size: 1.3rem;
+    padding: 20px;
 }
 
 .GameOfThrones {
-    font-style: italic;
+    font-size: 1.3rem;
+    padding: 20px;
 }
 
 .aot {
-    font-style: italic;
+    font-size: 1.3rem;
+    padding: 20px;
 }
 
-.bonus.sketches {
-    text-transform: uppercase;
+.bonus-sketches {
+    border-color: #bee7ff;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.fate {
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.snowblind {
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.KNY {
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
 }
