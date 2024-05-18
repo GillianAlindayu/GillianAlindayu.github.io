@@ -55,6 +55,7 @@ body {
 }
 
 .section {
+    border-style: dotted; 
     margin: 2rem 0;
 }
 
