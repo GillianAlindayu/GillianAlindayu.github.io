@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    background-color: rgb(79, 111, 121); 
+    color: rgb(255, 255, 255); 
 }
 
 body {
@@ -32,7 +34,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: #444;
+    background-color: #1c254e;
 }
 
 .menu ul {
