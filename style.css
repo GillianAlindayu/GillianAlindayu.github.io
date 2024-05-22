@@ -1,52 +1,20 @@
-* {
-    box-sizing: border-box;
-    background-color: rgb(79, 111, 121); 
-    color: rgb(255, 255, 255); 
-}
-
+/* General styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-
-.main {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.navbar {
-    background-color: #031a28;
-    font-family: comic; 
-    height: 80px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.logo {
-    text-align: center; 
-    font-family:'Gill Sans';
-    color: white;
-    font-size: 2rem;
-    margin-left: 2rem;
-}
-
-.menu {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    background-color: #131623;
-}
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
 
-.menu ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-}
-
-.menu ul li {
+  .menu ul li {
     padding: 0 2rem;
 }
 
@@ -59,82 +27,68 @@ body {
     color: #ccc;
 }
 
-.section {
-    text-align: center; 
-    border-style: dotted; 
-    margin: 2rem 0;
-}
-
-
-.title{
-    text-align: center; 
-    margin: 2rem; 
-}
-
-.introduction {
-    text-align: center; 
-}
-
-.about-me {
-    text-align: center;
-}
-
-.first-artwork {
-    text-align: center;
-}
-
-.Mandalorian {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.GameOfThrones {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.aot {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.bonus-sketches {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.fate {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.snowblind {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.KNY {
-    text-align: center;
-    margin-top: 1rem;
-    align-items: center;
-}
-.subzero{
-    align-items: center; 
-    text-align: center; 
-    margin-top: 2rem; 
-
-}
-img {
-    display: block;
-    margin: 20px auto;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    align-items: center;
+  
+  nav ul {
+    justify-content: center;
+    list-style: none;
+    display: flex;
   }
-
-.scorpion{
-    align-items: center; 
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .section {
     text-align: center; 
-    margin-top: 2rem; 
+    padding: 2rem;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  img {
+    align-items: center; 
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Specific styles */
+  #HOME {
+    background-color: #75afff;
+
+  }
+  
+  #ABOUT-ME {
+    background-color: #4b66df;
+  }
+  
+  #ICONIC-ARTWORKS {
+    background-color: #7754df;
+  }
+  
+  #BONUS-SKETCHES {
+    background-color: #6170e3;
+  }
+  
+  #SILHOUETTE-ARTWORKS {
+    background-color: #717dff;
+  }
+  
+  #CONTACTS {
+    background-color: #26084f;
+  }
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
 }
+
