@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #031a28;
     height: 80px;
     display: flex;
     justify-content: flex-start;
@@ -24,6 +24,8 @@ body {
 }
 
 .logo {
+    text-align: center; 
+    font-family:'Gill Sans';
     color: white;
     font-size: 2rem;
     margin-left: 2rem;
@@ -34,7 +36,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: #1c254e;
+    background-color: #131623;
 }
 
 .menu ul {
@@ -61,6 +63,11 @@ body {
     margin: 2rem 0;
 }
 
+.title{
+    text-align: center; 
+    margin: 2rem; 
+
+}
 .introduction {
     text-align: center;
 }
