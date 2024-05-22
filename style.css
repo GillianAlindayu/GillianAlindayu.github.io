@@ -81,10 +81,13 @@ body {
   
   #SILHOUETTE-ARTWORKS {
     background-color: #717dff;
+    color: white; 
   }
   
   #CONTACTS {
     background-color: #26084f;
+    color: white; 
+
   }
 .menu ul {
     list-style-type: none;
