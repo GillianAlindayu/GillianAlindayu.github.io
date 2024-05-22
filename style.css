@@ -17,6 +17,7 @@ body {
 
 .navbar {
     background-color: #031a28;
+    font-family: comic; 
     height: 80px;
     display: flex;
     justify-content: flex-start;
@@ -59,17 +60,19 @@ body {
 }
 
 .section {
+    text-align: center; 
     border-style: dotted; 
     margin: 2rem 0;
 }
 
+
 .title{
     text-align: center; 
     margin: 2rem; 
-
 }
+
 .introduction {
-    text-align: center;
+    text-align: center; 
 }
 
 .about-me {
