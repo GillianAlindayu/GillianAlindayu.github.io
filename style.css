@@ -1,99 +1,171 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   
-  header {
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #505050;
+  }
+  
+  .main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #7a7a7a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navigation Styles */
+  
+  .navbar {
+    background-color: #333;
+    
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
   }
-
-  .menu ul li {
-    padding: 0 2rem;
-
-}
-
-.menu ul li a {
-    color: white;
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    color: #000000;
     text-decoration: none;
-}
-
-.menu ul li a:hover {
+    transition: color 0.2s ease;
+  }
+  
+  .menu a:hover {
     color: #ccc;
-}
-
-  
-  nav ul {
-    justify-content: center;
-    list-style: none;
-    display: flex;
   }
   
-  nav ul li {
-    margin-right: 1rem;
-  }
-  
-  nav ul li a {
-    justify-content: center;
-    color: #fff;
-    text-decoration: none;
-  }
+  /* Section Styles */
   
   .section {
-    text-align: center; 
-    padding: 2rem;
-    font-size: 2.5rem;
+    background-color: #4e4e4e;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   
-  img {
-    align-items: center; 
-    width: 100%;
-    height: auto;
+  .introduction {
+    font-size: 18px;
+    margin-bottom: 20px;
   }
   
-  /* Specific styles */
-  #HOME {
-    background-color: #75afff;
-
+  .about-me {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   
-  #ABOUT-ME {
-    background-color: #4b66df;
+  .descrption {
+    font-size: 18px;
+    margin-bottom: 20px;
   }
   
-  #ICONIC-ARTWORKS {
-    background-color: #7754df;
+  .IconicArt {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   
-  #BONUS-SKETCHES {
-    background-color: #6170e3;
-  }
-  
-  #SILHOUETTE-ARTWORKS {
-    background-color: #717dff;
-    color: white; 
-  }
-  
-  #CONTACTS {
-    background-color: #26084f;
-    color: white; 
-
-  }
-.menu ul {
-    list-style-type: none;
-    padding: 0;
+  .gallery {
     display: flex;
-}
-
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .images {
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .bestart {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .intro2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sketch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sketchbook {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .shadow {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .SILHOUETTE {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .shadowintro {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contacts Styles */
+  
+  .Contacts2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
