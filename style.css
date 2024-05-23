@@ -16,6 +16,7 @@ body {
 
   .menu ul li {
     padding: 0 2rem;
+
 }
 
 .menu ul li a {
@@ -47,6 +48,7 @@ body {
   .section {
     text-align: center; 
     padding: 2rem;
+    font-size: 2.5rem;
   }
   
   .title {
