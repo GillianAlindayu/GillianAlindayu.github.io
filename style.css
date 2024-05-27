@@ -17,8 +17,8 @@
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #7a7a7a;
+    background-color: #000000;
+    border: 1px solid #000000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
@@ -52,7 +52,7 @@
   }
   
   .menu a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.2s ease;
   }
@@ -65,7 +65,7 @@
   /* Section Styles */
   
   .section {
-    background-color: #4e4e4e;
+    background-color: #272727;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
