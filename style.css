@@ -62,45 +62,62 @@
   }
   
   .menu a:hover {
-    color: #a4ff06;
+    color: #fbff00;
     
   }
   
   /* Section Styles */
   
   .section {
-    background-color: #151516;
+    background-color: #0d0d0d;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
+
+  .about-me{
+    padding: 30px; 
+    font-size: 3.5px; 
+    font-family: cursive; 
+  }
+
   .title {
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   
   .introduction {
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
   
   .about-me {
     text-align: center; 
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 10px;
   }
   
   .descrption {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 25px;
   }
-  
+
+  .paragraph2{
+    font-size: 25px; 
+    margin-bottom: 25px;
+  }
+
+  .paragraph3{
+    font-size: 25px; 
+    margin-bottom: 25px; 
+  }
+
+
   .IconicArt {
     text-align: center; 
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
   }
@@ -117,6 +134,7 @@
     margin: 10px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    behavior: smooth; 
   }
   
   .intro {
