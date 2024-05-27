@@ -89,4 +89,22 @@ sections.forEach((section))
   
 
   const h2 = html.createElement('h2');
-  h2.textContent = section.title;
+// Get all the elements you want to animate
+const galleryItems = document.querySelectorAll('.gallery-item');
+
+// Add an event listener for scrolling
+window.addEventListener('scroll', () => {
+  // Calculate the scroll position
+  const scrollPosition = window.pageYOffset;
+
+  // Loop through each element and check if it's in the viewport
+  galleryItems.forEach((item, index) => {
+    const itemPosition = item.getBoundingClientRect().top;
+    const screenHeight = window.innerHeight;
+
+    // If the element is in the viewport, add the animation class
+    if (itemPosition < screenHeight && itemPosition + item.offsetHeight > 0) {
+      item.classList.add('scroll-anim');
+    }
+  });
+});
