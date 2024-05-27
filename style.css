@@ -21,6 +21,7 @@
     border: 1px solid #7a7a7a;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+
   
   /* Navigation Styles */
   
@@ -57,7 +58,7 @@
   }
   
   .menu a:hover {
-    color: #ccc;
+    color: #a4ff06;
   }
   
   /* Section Styles */
