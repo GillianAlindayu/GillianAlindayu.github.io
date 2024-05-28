@@ -1,16 +1,26 @@
-function animateElement(element, animation) {
-    element.style.animation = animation;
-    element.style.animationDuration = '1s';
-    element.style.animationTimingFunction = 'ease-in-out';
-    element.style.animationIterationCount = '1';
-    element.style.animationFillMode = 'forwards';
-  }
+// animations.js
 
-  const images = document.querySelectorAll('.images');
-images.forEach(image => animateElement(image, 'fadeIn'));
-
-const sketchbook = document.querySelector('.sketchbook');
-animateElement(sketchbook, 'slideInUp');
-
-const silhouette = document.querySelector('.SILHOUETTE');
-animateElement(silhouette, 'slideInDown');
+// Add event listener to window load event
+window.addEventListener('load', function() {
+    // Get all sections with class 'ection'
+    const sections = document.querySelectorAll('.section');
+  
+    // Add animation to each section
+    sections.forEach(function(section) {
+      section.classList.add('fade-in');
+    });
+  });
+  
+  // Add event listener to scroll event
+  window.addEventListener('scroll', function() {
+    // Get all sections with class 'ection'
+    const sections = document.querySelectorAll('.section');
+  
+    // Add animation to each section when it comes into view
+    sections.forEach(function(section) {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+        section.classList.add('slide-in');
+      }
+    });
+  });
