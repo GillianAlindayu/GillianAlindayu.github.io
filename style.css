@@ -5,13 +5,14 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    scroll-snap-type: calc();
     font-family: cursive; 
   }
   
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #ffffff;
+    color: #87e5ff;
     background-color: #460404;
   }
   
@@ -20,7 +21,7 @@
     margin: 40px auto;
     padding: 20px;
     background-color: #000000;
-    border: 1px solid #f0f0f0;
+    border: 1px solid #fbff00;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
@@ -39,7 +40,7 @@
   .logo {
     font-size: 24px;
     font-weight: bold;
-    margin: 10px;
+    margin: 40px;
   }
   
   .menu ul {
@@ -81,6 +82,11 @@
     font-family: cursive; 
   }
 
+  .profile{
+    padding: auto;  
+
+  }
+
   .title {
     font-size: 50px;
     font-weight: bold;
@@ -88,7 +94,7 @@
   }
   
   .introduction {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
   
@@ -122,6 +128,11 @@
     margin-bottom: 10px;
   }
   
+  .intro{
+    text-align: center; 
+    font-size: 50px; 
+    font-weight: bold; 
+  }
   .gallery {
     border-color: black; 
     border-style: dotted; 
