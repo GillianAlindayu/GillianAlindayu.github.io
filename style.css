@@ -244,13 +244,17 @@ header {
   justify-content: center;
 }
 
-.certificatestitle{
+.certificatetitles {
+  font-family: simple-sans;
   color: white; 
   text-align: center; 
-  font-size: 30px;
+  line-height: 1.5px; 
+  font-size: 40px;
 }
 
 .certificates img{
+
+  line-height: 1.5px;
   width: 600px; 
   height: 500px; 
   border-radius: 10px; 
