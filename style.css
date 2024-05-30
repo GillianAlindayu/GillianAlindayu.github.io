@@ -32,16 +32,10 @@ section {
 
 }
 
-h1, h2, h3 {
-  font-weight: bold;
+h1 {
+  font-family: Haettenschweiler; 
   color: #7bd6da;
   margin-bottom: 10px;
-}
-
-h1, h2, h3:hover{
-  transform-origin: 0ch;
-  transform:scale(1.0); 
-  transition-behavior: fade in;
 }
 
 p {
@@ -168,7 +162,7 @@ header {
 }
 
 .duel img{
-  width: 700px; 
+  width: 800px; 
   height: 700px; 
   margin: 20px; 
   border-radius: 10px; 
