@@ -154,6 +154,12 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.gallery img:hover {
+  transition: slide-in; 
+  transform: scale(1.0); 
+
+}
+
 
 .duel {
   display: flex; 
@@ -197,6 +203,24 @@ header {
   fill-opacity: inherit;
 }
 
+.SILHOUETTE{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.SILHOUETTE img {
+  width: 300px; 
+  height: 350px; 
+  margin: 20px; 
+  border-radius: 10px; 
+}
+
+.SILHOUETTE img:hover{
+  transform: scale(1.1); 
+  filter: grayscale(1)
+}
+
 .edited {
   display: flex; 
   flex-wrap: wrap; 
@@ -209,6 +233,7 @@ header {
   margin: 10px; 
   border-radius: 10px; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  border-color: solid, rgba(0, 0, 0, 0.1);
 }
 
 .edited img:hover{
@@ -220,6 +245,7 @@ header {
   display: flex; 
   flex-wrap: wrap; 
   justify-content: center; 
+
 }
 
 .igprofile img {
@@ -249,14 +275,14 @@ header {
   color: white; 
   text-align: center; 
   line-height: 1.5px; 
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .certificates img{
 
-  line-height: 1.5px;
+  line-height: 15px;
   width: 600px; 
-  height: 500px; 
+  height: 400px; 
   border-radius: 10px; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   
