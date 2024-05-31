@@ -42,6 +42,10 @@ p {
   margin-bottom: 20px;
 }
 
+p:hover{
+  transition-duration: 0ms;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -60,12 +64,13 @@ a {
 
 a:hover {
   color: #3bb1ff;
+  transition-property: inherit;
 }
 
 /* Header Styles */
 
 header {
-  background-color: #9b9b9b;
+  background-color: #1b1e3d;
   color: #3d3232;
   padding: 20px;
   text-align: center;
@@ -97,7 +102,7 @@ header {
 }
 
 .menu a {
-  color: #292828;
+  color: #dadada;
   padding-left: 0cap;
   margin-left: 30px; 
 }
@@ -180,10 +185,8 @@ header {
   display: flex; 
   flex-wrap: wrap; 
   justify-content: center;
-
-
+  
 }
-
 
 .sketch img { 
   width: 200px; 
@@ -270,6 +273,14 @@ header {
   justify-content: center;
 }
 
+.award {
+  font-family: verdena; 
+  border-radius: 20px; 
+  padding: 20px; 
+  text-align: center; 
+  
+}
+
 .certificatetitles {
   font-family: simple-sans;
   color: white; 
@@ -280,7 +291,7 @@ header {
 
 .certificates img{
 
-  line-height: 15px;
+  line-height: 1.6px;
   width: 600px; 
   height: 400px; 
   border-radius: 10px; 
