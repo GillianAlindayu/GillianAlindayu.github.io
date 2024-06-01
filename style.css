@@ -19,11 +19,11 @@ body {
 }
 
 main {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 40px auto;
   padding: 20px;
-  background-color: #656769;
-  border: 1px solid #252527;
+  background-color: #083058;
+  border: 10px solid #c5c5c5;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -114,10 +114,10 @@ header {
 /* Section Styles */
 
 .section {
-  background-color: #223540;
+  background-color: #1a2024;
   padding: 20px;
   margin-bottom: 30px;
-  box-shadow: 0 2px 4px rgba(162, 162, 162, 0.1);
+  box-shadow: 0 2px 4px rgba(26, 26, 26, 0.1);
 }
 
 .title {
@@ -266,6 +266,14 @@ header {
   transition-behavior: smooth; 
 }
 
+.credits{
+  font-family: verdana; 
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+
+
+}
 
 .certificates{
   display: flex; 
@@ -274,12 +282,29 @@ header {
 }
 
 .award {
-  font-family: verdena; 
+  font-family: verdana; 
   border-radius: 20px; 
   padding: 20px; 
   text-align: center; 
-  
+
 }
+
+.setups{
+  font-family: verdana; 
+  border-radius: 20px;
+  padding: 10px; 
+  text-align: center; 
+}
+
+.setups img{
+  width: 800px; 
+  height: 650px; 
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  border-color: solid, rgba(0, 0, 0, 0.1);
+}
+
 
 .certificatetitles {
   font-family: simple-sans;
