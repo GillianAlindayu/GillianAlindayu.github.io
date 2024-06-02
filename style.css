@@ -44,7 +44,7 @@ h1 {
 .logo{
   font-family: tahoma; 
   color: rgb(214, 255, 196); 
-  text-align: center; 
+  text-align: end; 
   margin-bottom: 20px; 
 }
 
@@ -82,9 +82,8 @@ a:hover {
 /* Header Styles */
 
 header {
-  background-color: #3a3d5a;
   color: #0e0625;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   margin-bottom: 30px;
   justify-content: center; 
@@ -92,10 +91,16 @@ header {
 }
 
 .menu {
+  position: fixed; 
+  top: 40px; 
+  bottom: 40; 
+  left: 40p; 
+  z-index: 988px;
   display: flex;
   justify-content: space-between;
   align-items: center; 
   text-align: end; 
+  background-color: #3a3d5a;
   margin-right: 20px; 
   margin-bottom: 20px;
 }
@@ -133,7 +138,7 @@ header {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   margin-right: 50px;
   text-align: center; 
