@@ -92,11 +92,10 @@ a:hover {
 header {
 
 /* Lettering */
-  font-family: corporate, fantasy; 
   color:rgb(224, 243, 255); 
   font-size: 25px; 
   text-align: center; 
-  background-color:#1a2164;
+  background-color:#1e7797;
   border-style: dotted;
   box-sizing: border-box;
   padding: 30px;
@@ -104,6 +103,10 @@ header {
   margin-bottom: 30px;
   justify-content: center; 
   align-items: center; 
+  @font-face {
+    font-family: PermanentMarker, Noto_serif;
+    src: url(PermanentMarker.tff);
+  }
 }
 
 .menu {
@@ -115,7 +118,6 @@ header {
   justify-content: space-between;
   align-items: center; 
   text-align: center; 
-  background-color: #050b43;
   margin-right: 20px; 
   margin-bottom: 20px;
 }
@@ -145,7 +147,8 @@ li {
 /* Section Styles */
 
 .section {
-  background-color: #100834;
+  background-color:rgb(25, 25, 26); 
+  background-size: cover; 
   padding: 20px;
   margin-bottom: 30px;
   box-shadow: 0 2px 4px rgba(26, 26, 26, 0.1);
@@ -175,16 +178,12 @@ li {
   align-items: center;
 }
 
-.profile {
-  background-color: rgb(255, 255, 255);
-
-}
 
 .container {
   display: flex; /* This will align the profile and homepage in the same line */
   justify-content: center; /* This will center align the container */
   align-items: center; /* This will center align the content vertically */
-  flex-direction: column; /* This will stack the profile and homepage on top of each other */
+  flex-direction: row; /* This will stack the profile and homepage on top of each other */
 }
 
 .profile {
@@ -207,15 +206,21 @@ li {
 }
 
 .homepage {
-  background-color: rgb(70, 67, 74);
+  border-radius: 0cm;
+  width: 1400x; 
+  height: 200px; 
   align-items: center;
 }
 
 .images {
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 
+.ABOUT_ME Section{
+  background-image: url(star-wars-place-ztno3exzqff0m0ci.jpg);
+  background-size: cover;
+}
 
 .gallery {
   display: flex;
@@ -237,8 +242,19 @@ li {
 
 }
 
+.sketchbook-text{
+  font-size: 25px; 
+  margin: 20px; 
+  @font-face{
+    font-family: serif; 
+    src: url(PermanentMarker.tff);
+  }
+  
+}
+
 
 .duel {
+  border-style: dotted; 
   display: flex; 
   flex-wrap: wrap; 
   justify-content: center; 
@@ -255,6 +271,8 @@ li {
 
 
 .sketch {
+  margin: 20px; 
+  border-style: outset;
   display: flex; 
   flex-wrap: wrap; 
   justify-content: center;
@@ -336,7 +354,7 @@ li {
   height: 450px; 
   margin: 10px; 
   border-radius: 10px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 2px 4px rgba(94, 94, 94, 0.1); 
   
 }
 
