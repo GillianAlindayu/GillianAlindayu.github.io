@@ -27,6 +27,14 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+main img{
+  width: 100px; 
+  height: 100px; 
+  padding: 20px; 
+  margin: 20px; 
+  align-items: end; 
+
+}
 section {
   margin-bottom: 20px;
 
@@ -40,13 +48,11 @@ h1 {
   margin-bottom: 10px;
 }
 
-
 .logo{
-  font-family: tahoma; 
-  margin-bottom: 20px; 
-  color: rgb(214, 255, 196); 
-  text-align: end; 
-  margin-bottom: 20px; 
+  width: 200x; 
+  height: 200px; 
+  margin-right: 10px; 
+  align-items: end; 
 }
 
 p {
@@ -73,11 +79,11 @@ li {
 
 a {
   text-decoration: bold;
-  color: #337ab7;
+  color: #ffffff;
 }
 
 a:hover {
-  color: #1e445e;
+  color: #2b9ae4;
   transition-property: inherit;
 }
 
@@ -90,7 +96,7 @@ header {
   color:rgb(224, 243, 255); 
   font-size: 25px; 
   text-align: center; 
-  background-color:#3a3d5a;
+  background-color:#1a2164;
   border-style: dotted;
   box-sizing: border-box;
   padding: 30px;
@@ -109,33 +115,29 @@ header {
   justify-content: space-between;
   align-items: center; 
   text-align: center; 
-  background-color: #3a3d5a;
+  background-color: #050b43;
   margin-right: 20px; 
   margin-bottom: 20px;
 }
 
-.menu ul {
-  display: flex;
-  align-items: center; 
-  text-align: center; 
-  justify-content: space-between;
-
+.menu {
+  display: flex; /* This will align the menu tabs in the same line */
+  justify-content: center; /* This will center align the menu tabs */
 }
 
-.menu li {
-  margin-right: 20px;
-  text-align: center; 
+ul {
+  list-style-type: none; /* This will remove the bullets from the list items */
+  padding: 0; /* This will remove the padding from the list items */
+  margin: 0; /* This will remove the margin from the list items */
 }
 
-.menu a {
-  text-align: center; 
-  color: #dadada;
-  margin-bottom: 20px;
-  transition: all 0.3s erase-in-out;  
+li {
+  display: inline; /* This will display the list items in the same line */
+  margin: 0 10px; /* This will add some space between the menu tabs */
 }
 
 .menu a:hover {
-  color: #29dac2;
+  color: #67c7ff;
   transform: translateY(-10px);
 
 }
@@ -178,6 +180,32 @@ header {
 
 }
 
+.container {
+  display: flex; /* This will align the profile and homepage in the same line */
+  justify-content: center; /* This will center align the container */
+  align-items: center; /* This will center align the content vertically */
+  flex-direction: column; /* This will stack the profile and homepage on top of each other */
+}
+
+.profile {
+  display: flex; /* This will align the image and text in the same line */
+  justify-content: center; /* This will center align the image and text */
+  align-items: center; /* This will center align the image and text vertically */
+  margin-bottom: 20px; /* This will add some space between the profile and homepage */
+}
+
+.pic {
+  margin-right: 20px; /* This will add some space between the image and text */
+}
+
+.images {
+  border-radius: 50%; /* This will make the image circular */
+}
+
+.hello {
+  text-align: center; /* This will center align the text */
+}
+
 .homepage {
   background-color: rgb(70, 67, 74);
   align-items: center;
@@ -185,7 +213,7 @@ header {
 
 .images {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 
@@ -252,7 +280,7 @@ header {
 }
 
 .gallery img:hover {
-  transform: scale(1.1);
+  transform: scale(1.5);
   filter: grayscale(1);
   fill-opacity: inherit;
 }
@@ -296,6 +324,7 @@ header {
 }
 
 .igprofile{
+  border-color: #ffff;
   display: flex; 
   flex-wrap: wrap; 
   justify-content: center; 
