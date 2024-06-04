@@ -13,7 +13,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   line-height: 1.6;
-  color: #cbffce;
+  color: #ffffff;
   background-image: url(20424687.jpg);
   background-attachment: fixed; 
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ li {
 a {
   justify-content: space-between;
   text-decoration: bold;
-  color: hsl(38, 100%, 91%);
+  color: hsl(109, 100%, 96%);
 }
 
 a:hover {
@@ -340,6 +340,8 @@ li {
 .SILHOUETTE{
   border-style: dotted;
   display: flex; 
+  margin: 20px; 
+  padding: 20px; 
   flex-wrap: wrap; 
   justify-content: center; 
 }
@@ -377,6 +379,11 @@ li {
 .edited img:hover{
   transform: scale(1.2); 
   filter: grayscale(1); 
+}
+
+.behindthescenes{
+  justify-content: center;
+  text-align: center;
 }
 
 .igprofile{
