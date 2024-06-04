@@ -14,7 +14,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   line-height: 1.6;
   color: #d5d5d5;
-  background-image: url(wallpaper.jpg);
+  background-image: url(20424687.jpg);
   background-attachment: fixed; 
   background-repeat: no-repeat;
   background-size: cover; 
@@ -42,7 +42,8 @@ main img{
 }
 section {
   background-color: black;
-  opacity: 30%;
+  fill-opacity: calc(30);
+  opacity: 20%; 
   margin-bottom: 20px;
 
 }
@@ -53,7 +54,7 @@ div{
 
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #7bd6da;
+  color: #e187f6;
   text-align: center; 
   margin-bottom: 10px;
 }
@@ -99,7 +100,7 @@ a:hover {
 
 
 h2{ 
-  color:rgb(111, 234, 230);
+  color:rgb(243, 255, 172);
 }
 /* Header Styles */
 
@@ -155,6 +156,7 @@ li {
 
 .menu a:hover {
   color: #cd77ff;
+  animation-fill-mode: backwards;
   transform: translateY(-10px);
 
 }
@@ -162,7 +164,11 @@ li {
 /* Section Styles */
 
 .section {
-  opacity: 100; 
+  background-image: url(2010.w020.n001.774B.p15.774.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; 
+  opacity: 100%; 
   padding: 20px;
   margin-bottom: 30px;
   box-shadow: 0 2px 4px rgba(26, 26, 26, 0.1);
