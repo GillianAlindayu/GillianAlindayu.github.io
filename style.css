@@ -25,10 +25,11 @@ main {
   max-width: 1450px;
   margin: 40px auto;
   padding: 20px;
-  background-color: #030707;
+  background-color:rgba(0, 0, 0, 0.1);
   opacity: 100%; 
   border: 10px solid #c5c5c5;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color:rgba(0, 0, 0, 0.1);
 }
 
 main img{
@@ -40,10 +41,15 @@ main img{
 
 }
 section {
+  background-color: black;
+  opacity: 30%;
   margin-bottom: 20px;
 
 }
 
+div{
+  animation-delay: 2s; 
+}
 
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
