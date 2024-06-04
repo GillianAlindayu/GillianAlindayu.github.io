@@ -13,7 +13,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   line-height: 1.6;
-  color: #d5d5d5;
+  color: #cbffce;
   background-image: url(20424687.jpg);
   background-attachment: fixed; 
   background-repeat: no-repeat;
@@ -25,9 +25,9 @@ main {
   max-width: 1450px;
   margin: 40px auto;
   padding: 20px;
-  background-color:rgba(0, 0, 0, 0.1);
+  background-color:rgba(255, 0, 0, 0.725);
   opacity: 100%; 
-  border: 10px solid #c5c5c5;
+  border: 10px solid #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color:rgba(0, 0, 0, 0.1);
 }
@@ -64,6 +64,7 @@ h1 {
   height: 200px; 
   margin-right: 10px; 
   align-items: end; 
+  position: inherit, fixed;
 }
 
 p {
@@ -89,8 +90,9 @@ li {
 }
 
 a {
+  justify-content: space-between;
   text-decoration: bold;
-  color: #ffffff;
+  color: hsl(38, 100%, 91%);
 }
 
 a:hover {
@@ -100,13 +102,16 @@ a:hover {
 
 
 h2{ 
-  color:rgb(243, 255, 172);
+  color:rgb(193, 247, 255);
 }
 /* Header Styles */
 
 header {
 
+
+
 /* Lettering */
+
   color:rgb(224, 243, 255); 
   font-size: 25px; 
   text-align: center; 
@@ -118,6 +123,7 @@ header {
   margin-bottom: 30px;
   justify-content: center; 
   align-items: center; 
+  transition: top 0.5s ease;
   @font-face {
     font-family: PermanentMarker, Noto_serif;
     src: url(PermanentMarker.tff);
@@ -139,6 +145,7 @@ header {
 }
 
 .menu {
+   position: inherit, fixed; 
   display: flex; /* This will align the menu tabs in the same line */
   justify-content: center; /* This will center align the menu tabs */
 }
@@ -243,6 +250,8 @@ li {
 }
 
 .gallery {
+  border-style: dotted; 
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -263,6 +272,8 @@ li {
 }
 
 .sketchbook-text{
+  background-color:rgba(0, 0, 0, 0.1); 
+  opacity: 100; 
   font-size: 25px; 
   margin: 20px; 
   @font-face{
@@ -278,6 +289,7 @@ li {
   display: flex; 
   margin: 30px; 
   padding: 20px; 
+  background-color:rgba(0, 0, 0, 0.1);
   flex-wrap: wrap; 
   justify-content: center; 
 }
@@ -326,6 +338,7 @@ li {
 }
 
 .SILHOUETTE{
+  border-style: dotted;
   display: flex; 
   flex-wrap: wrap; 
   justify-content: center; 
@@ -339,14 +352,17 @@ li {
 }
 
 .SILHOUETTE img:hover{
-  transform: scale(1.1); 
+  transform: scale(1.2); 
   filter: grayscale(1)
 }
 
 .edited {
+  border-style: dotted; 
+  color-scheme: 80%;
   display: flex; 
   flex-wrap: wrap; 
   justify-content: center;
+  padding: 20px; 
 }
 
 .edited img{
@@ -359,7 +375,7 @@ li {
 }
 
 .edited img:hover{
-  transform: scale(1.1); 
+  transform: scale(1.2); 
   filter: grayscale(1); 
 }
 
@@ -410,9 +426,10 @@ li {
 }
 
 .setups{
+  border-style: dotted; 
   font-family: verdana; 
   border-radius: 20px;
-  padding: 10px; 
+  padding: 20px; 
   text-align: center; 
 }
 
@@ -435,7 +452,6 @@ li {
 }
 
 .certificates img{
-
   line-height: 1.6px;
   width: 600px; 
   height: 400px; 
